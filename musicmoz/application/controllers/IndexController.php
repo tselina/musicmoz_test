@@ -11,6 +11,8 @@ class IndexController extends Zend_Controller_Action
     public function indexAction()
     {
         // action body
+        var_dump($this->_request->getParams());
+        var_dump($this->_request->getUserParams());
     }
 
 
